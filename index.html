@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dechaa</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- AOS -->
+    <link rel="stylesheet"
+          href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= BACKGROUND ================= -->
+
+<canvas id="particles"></canvas>
+
+<div id="progress-bar"></div>
+
+<div class="cursor-light"></div>
+
+<div class="bubbles">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+<div class="blob blob1"></div>
+<div class="blob blob2"></div>
+<div class="blob blob3"></div>
+
+<!-- ================= LOADING ================= -->
+
+<div id="loader">
+    <div class="spinner"></div>
+</div>
+
+<!-- ================= HEADER ================= -->
+
+<header id="header">
+
+    <a href="#" class="logo">
+        Portfolio Dechaa
+    </a>
+
+    <nav>
+
+        <ul id="menu">
+
+            <li><a href="#home">Beranda</a></li>
+
+            <li><a href="#about">Tentang</a></li>
+
+            <li><a href="#skill">Skill</a></li>
+
+            <li><a href="#project">Proyek</a></li>
+
+            <li><a href="#experience">Pengalaman</a></li>
+
+            <li><a href="#education">Pendidikan</a></li>
+
+            <!-- diperbaiki -->
+            <li><a href="#certificate">Sertifikat</a></li>
+
+            <li><a href="#contact">Kontak</a></li>
+
+        </ul>
+
+    </nav>
+
+    <div class="menu-btn">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+
+</header>
+
+<!-- ================= HOME ================= -->
+
+<section id="home">
+
+    <div class="home-content">
+
+        <div class="left">
+
+            <h3>Halo Saya</h3>
+
+            <h1>Decha Dwi Febrina Octasari</h1>
+
+            <h2>
+                <span class="typing"></span>
+            </h2>
+
+            <p>
+
+                Saya memiliki kemampuan dalam menggunakan Microsoft Office seperti Microsoft Word, Microsoft Excel, dan Microsoft PowerPoint untuk membuat dokumen, mengolah data, serta menyusun presentasi yang rapi dan profesional. Kemampuan ini saya gunakan untuk mendukung kegiatan belajar, administrasi, dan berbagai tugas organisasi maupun magang.
+
+            </p>
+
+            <div class="home-button">
+
+                <a href="#contact" class="btn">
+                    Hubungi Saya
+                </a>
+
+                <a href="#project" class="btn-outline">
+                    Lihat Project
+                </a>
+
+            </div>
+
+            <div class="social">
+
+                <a href="https://github.com/dechaa-08" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://www.instagram.com/cacaaaja_00?igsh=anc4MzZzb2N0encx" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/decha-dwi-febrina-octasari-301583425/?isSelfProfile=true" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a href="https://www.tiktok.com/@cacanzz00?_r=1&_t=ZS-98Oc7PBOKXs" target="_blank">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="right">
+
+            <div class="photo-wrapper">
+
+                <img src="foto/home.jpeg" alt="Profile">
+
+                <div class="tech tech-html">
+                    <i class="fab fa-html5"></i>
+                </div>
+
+                <div class="tech tech-css">
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+
+                <div class="tech tech-js">
+                    <i class="fab fa-js"></i>
+                </div>
+
+                <div class="tech tech-php">
+                    <i class="fab fa-php"></i>
+                </div>
+
+                <div class="tech tech-laravel">
+                    <i class="fab fa-laravel"></i>
+                </div>
+
+                <div class="tech tech-github">
+                    <i class="fab fa-github"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" data-aos="fade-up">
+
+    <div class="title">
+        <h2>Tentang Saya</h2>
+    </div>
+
+    <div class="about-container">
+
+        <div class="about-image">
+
+            <div class="circle-ring"></div>
+            <div class="square-ring"></div>
+            <div class="diamond-ring"></div>
+
+            <div class="about-icons">
+
+                <i class="fas fa-heart icon-love"></i>
+                <i class="fas fa-star icon-star"></i>
+                <i class="fas fa-lightbulb icon-light"></i>
+                <i class="fas fa-gem icon-gem"></i>
+                <i class="fas fa-rocket icon-rocket"></i>
+                <i class="fas fa-bullseye icon-target"></i>
+            
+            </div>
+        
+            <img src="foto/about.jpeg" alt="About">
+        
+        </div>
+
+        <div class="about-text">
+
+            <p>
+
+                Halo! Saya adalah siswa SMK Krian 1 Sidoarjo jurusan Rekayasa Perangkat Lunak yang memiliki minat dalam pengembangan website dan teknologi. Saya senang belajar hal baru, mampu bekerja secara individu maupun tim, serta terus mengembangkan kemampuan dalam HTML, CSS, JavaScript, PHP, dan MySQL untuk menciptakan website yang responsif dan menarik. Saya juga mempelajari Microsoft Word, Microsoft Excel, dan Microsoft PowerPoint.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= SKILL ================= -->
+
+<section id="skill" data-aos="fade-up">
+
+    <div class="title">
+        <h2>Skill</h2>
+    </div>
+
+    <div class="skill-container">
+
+        <div class="skill-card">
+
+            <h3>
+                HTML
+                <span class="counter" data-target="70">0</span>%
+            </h3>
+
+            <div class="progress">
+                <div class="html"></div>
+            </div>
+
+        </div>
+
+        <div class="skill-card">
+
+            <h3>
+                CSS
+                <span class="counter" data-target="70">0</span>%
+            </h3>
+
+            <div class="progress">
+                <div class="css"></div>
+            </div>
+
+        </div>
+
+        <div class="skill-card">
+
+            <h3>
+                JavaScript
+                <span class="counter" data-target="60">0</span>%
+            </h3>
+
+            <div class="progress">
+                <div class="js"></div>
+            </div>
+
+        </div>
+
+        <div class="skill-card">
+
+            <h3>
+                Microsoft Excel
+                <span class="counter" data-target="90">0</span>%
+            </h3>
+
+            <div class="progress">
+                <div class="MicrosoftExcel"></div>
+            </div>
+
+        </div>
+
+        <div class="skill-card">
+
+            <h3>
+                Microsoft Word
+                <span class="counter" data-target="90">0</span>%
+            </h3>
+
+            <div class="progress">
+                <div class="MicrosoftWord"></div>
+            </div>
+
+        </div>
+
+        <div class="skill-card">
+
+            <h3>
+                Microsoft PowerPoint
+                <span class="counter" data-target="80">0</span>%
+            </h3>
+
+            <div class="progress">
+                <div class="PowerPoint"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= PROJECT ================= -->
+
+<section id="project" data-aos="zoom-in">
+
+    <div class="title">
+        <h2>Project Saya</h2>
+    </div>
+
+    <div class="project-container">
+
+        <div class="project-card">
+
+            <img src="proyek/portopolio.jpeg" alt="Portfolio">
+
+            <h3>Website Portfolio</h3>
+
+            <p>
+                Website ini berisi informasi mengenai profil, keterampilan, pengalaman, proyek, dan pencapaian yang telah saya pelajari selama menekuni bidang Rekayasa Perangkat Lunak.
+            </p>
+
+            <a href="#" class="lihat-btn">Lihat</a>
+
+        </div>
+
+        <div class="project-card">
+
+            <img src="proyek/microsoft.jpeg" alt="Microsoft Office">
+
+            <h3>Microsoft Office</h3>
+
+            <p>
+                Menguasai Microsoft Word, Microsoft Excel, dan Microsoft PowerPoint untuk pengolahan dokumen, data, serta pembuatan presentasi yang efektif.
+            </p>
+
+            <a href="#" class="lihat-btn">Lihat</a>
+
+        </div>
+
+        <div class="project-card">
+
+            <img src="proyek/adobe.jpeg" alt="Adobe">
+
+            <h3>Desain Grafis</h3>
+
+            <p>
+                Menguasai Adobe Photoshop dan Adobe Illustrator untuk desain grafis, editing foto, dan pembuatan media visual.
+            </p>
+
+            <a href="#" class="lihat-btn">Lihat</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= PROJECT POPUP ================= -->
+
+<div id="projectPopup" class="popup">
+
+    <div class="popup-content">
+
+        <span id="closePopup">&times;</span>
+
+        <h2 id="popupTitle"></h2>
+
+        <p id="popupText"></p>
+
+    </div>
+
+</div>
+
+<!-- ================= EXPERIENCE ================= -->
+
+<section id="experience" data-aos="fade-right">
+
+    <div class="title">
+        <h2>Pengalaman</h2>
+    </div>
+
+    <div class="timeline">
+
+        <div class="box">
+
+            <h3>PKL - Polsek Wonoayu</h3>
+
+            <span>2026</span>
+
+            <p>
+                Melaksanakan Praktik Kerja Lapangan dengan membantu administrasi, pengolahan data menggunakan Microsoft Word dan Microsoft Excel, serta mendukung kegiatan pelayanan di Polsek Wonoayu.
+            </p>
+
+        </div>
+
+        <div class="box">
+
+            <h3>Freelance Web Developer</h3>
+
+            <span>2025 - 2026</span>
+
+            <p>
+                Membuat website responsif menggunakan HTML, CSS, JavaScript, dan Bootstrap.
+            </p>
+
+        </div>
+
+        <div class="box">
+
+            <h3>Kegiatan Ekstrakurikuler</h3>
+
+            <span>2025</span>
+
+            <p>
+                Aktif mengikuti latihan rutin serta berpartisipasi dalam berbagai perlombaan dan kegiatan sekolah.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= EDUCATION ================= -->
+
+<section id="education" data-aos="fade-left">
+
+    <div class="title">
+        <h2>Pendidikan</h2>
+    </div>
+
+    <div class="timeline">
+
+        <div class="box">
+
+            <h3>SMK Krian 1 - Sidoarjo</h3>
+
+            <span>2024 - 2027</span>
+
+            <p>Jurusan Rekayasa Perangkat Lunak.</p>
+
+        </div>
+
+        <div class="box">
+
+            <h3>SMP Negeri 3 Krian - Sidoarjo</h3>
+
+            <span>2021 - 2024</span>
+
+        </div>
+
+        <div class="box">
+
+            <h3>SD Negeri Jatikalang 2 - Sidoarjo</h3>
+
+            <span>2015 - 2021</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CERTIFICATE ================= -->
+
+<section id="certificate" data-aos="fade-up">
+
+    <div class="title">
+        <h2>Sertifikat</h2>
+    </div>
+
+    <div class="project-container">
+
+        <div class="project-card">
+
+            <i class="fa-solid fa-award fa-4x certificate-icon"></i>
+
+            <h3>Sertifikat PKL</h3>
+
+            <p>
+                Berhasil menyelesaikan Praktik Kerja Lapangan di Polsek Wonoayu sebagai bukti pengalaman dalam administrasi dan penggunaan Microsoft Office.
+            </p>
+
+        </div>
+
+        <div class="project-card">
+
+            <i class="fa-solid fa-building fa-4x certificate-icon"></i>
+
+            <h3>Sertifikat Kunjungan Industri</h3>
+
+            <p>
+                Mengikuti kegiatan kunjungan industri sebagai bentuk pengenalan dunia kerja dan perkembangan teknologi.
+            </p>
+
+        </div>
+
+        <div class="project-card">
+
+            <i class="fa-solid fa-language fa-4x certificate-icon"></i>
+
+            <h3>Sertifikat Bahasa Korea</h3>
+
+            <p>
+                Berhasil menyelesaikan pelatihan Bahasa Korea sebagai bukti penguasaan dasar kosakata, tata bahasa, dan percakapan sederhana.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" data-aos="fade-up">
+
+    <div class="title">
+        <h2>Hubungi Saya</h2>
+    </div>
+
+    <div class="contact-container">
+
+        <div class="contact-info">
+
+            <a href="https://wa.me/6283831911462" class="contact-item" target="_blank">
+
+                <i class="fab fa-whatsapp"></i>
+
+                <div>
+
+                    <h3>WhatsApp</h3>
+
+                    <p>083831911462</p>
+
+                </div>
+
+            </a>
+
+            <a href="mailto:cacaaxyzz00@gmail.com" class="contact-item">
+
+                <i class="fas fa-envelope"></i>
+
+                <div>
+
+                    <h3>Email</h3>
+
+                    <p>cacaaxyzz00@gmail.com</p>
+
+                </div>
+
+            </a>
+
+            <a href="https://maps.google.com/?q=Sidoarjo,Jawa+Timur"
+               class="contact-item"
+               target="_blank">
+
+                <i class="fas fa-location-dot"></i>
+
+                <div>
+
+                    <h3>Lokasi</h3>
+
+                    <p>Sidoarjo, Jawa Timur</p>
+
+                </div>
+
+            </a>
+
+        </div>
+
+        <div class="contact-image">
+
+            <div class="gmail-circle">
+
+                <i class="fa-solid fa-envelope"></i>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <h2>Terima Kasih Telah Berkunjung</h2>
+
+    <p>
+
+        Portfolio ini merupakan kumpulan pengalaman, keterampilan, serta proyek yang telah saya kerjakan selama mempelajari bidang Rekayasa Perangkat Lunak.
+
+    </p>
+
+    <div class="footer-social">
+
+        <a href="https://github.com/dechaa-08" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+
+        <a href="https://www.instagram.com/cacaaaja_00" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="https://www.tiktok.com/" target="_blank">
+            <i class="fab fa-tiktok"></i>
+        </a>
+
+    </div>
+
+    <p class="copy">
+
+        © 2026 Decha Portfolio
+
+    </p>
+
+</footer>
+
+<!-- ================= BACK TO TOP ================= -->
+
+<button id="topBtn">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+<!-- ================= AOS ================= -->
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+
+AOS.init({
+
+    duration:1200,
+    once:true,
+    easing:"ease-out-cubic"
+
+});
+
+</script>
+
+<!-- ================= JS ================= -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
